@@ -1,0 +1,257 @@
+/* *** Zero *** */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+/* *** Zero *** */
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Header Start */
+
+.header__wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav__link{
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+.nav__link:last-child{
+    margin-right: 0;
+}
+
+.nav__link:hover{
+    color: #18B5DC;
+    transition: all 0.3s;
+}
+
+.nav--margin{
+    margin: 26px 0 25px 0;
+}
+
+.nav__link--small{
+font-size: 18px;
+line-height: 22px;
+}
+
+.button{
+    width: 130px;
+    height: 42px;
+    border: 1px solid #3C3C3C;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__link{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #18B5DC;
+    border: none;
+    transition: all 0.3s;
+
+}
+
+.button:hover .button__link{
+    color: #fff;
+    transition: all 0.3s;
+}
+
+/* Header End */
+/* Main Start */
+
+.about{
+    background-color: #F6F6F6;
+    padding: 150px 0;
+}
+
+.title{
+    margin: 0 auto;
+
+}
+
+.title__text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    position: relative;
+}
+
+.title__text::after{
+    content: ' ';
+    width: 45px;
+    height: 4px;
+    border-bottom: 4px solid #DDDBDB;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 61px;
+}
+
+.subtitle{
+    max-width: 570px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.subtitle__text--margin{
+    margin-top: 60px;
+}
+
+.subtitle__text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.personal{
+    margin-top: 60px;
+    display: flex;
+}
+
+.personal__profile{
+    width: 270px;
+    height: 333px;
+    margin-right: 30px;
+}
+
+.personal__profile:last-child{
+    margin-right: 0;
+}
+
+.personal__profile-img{
+    width: 270px;
+    height: 270px;
+}
+
+
+.personal__profile-img:hover .social--center{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.personal__profile-name{
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+}
+
+.personal__profile-position{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
+
+/* Main End */
+/* Footer Start */
+
+.footer__wraper{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__link{
+    width: 42px;
+    height: 42px;
+    border: 1px solid #18B5DC;
+    text-decoration: none;
+    color: #18B5DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.social__link:last-child{
+    margin-right: 0;
+}
+
+.social__link:hover{
+    background-color: #18B5DC;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.social--center{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #18B5DC;
+}
+
+.social__link--revers{
+    background-color: #5DCBE6;;
+    color: #fff;
+    margin-right: 4px;
+}
+
+.social__link--revers:last-child{
+    margin-right: 0;
+}
+
+.social__link--revers:hover {
+    background-color: #fff;
+    color: #18B5DC;
+    border: 1px solid #18B5DC;
+    transition: all 0.3s;
+}
+
+/* Footer End */

@@ -35,6 +35,7 @@
     line-height: 24px;
     text-transform: uppercase;
     color: #3C3C3C;
+    transition: all 0.3s;
 }
 
 .nav__link:last-child{
@@ -43,7 +44,6 @@
 
 .nav__link:hover{
     color: #18B5DC;
-    transition: all 0.3s;
 }
 
 .nav--margin{
@@ -63,6 +63,12 @@ line-height: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #18B5DC;
+    border: none;
 }
 
 .button__link{
@@ -74,18 +80,11 @@ line-height: 22px;
     text-transform: uppercase;
     color: #3C3C3C;
     text-decoration: none;
-}
-
-.button:hover{
-    background-color: #18B5DC;
-    border: none;
-    transition: all 0.3s;
-
+    transition: 0.3s;
 }
 
 .button:hover .button__link{
     color: #fff;
-    transition: all 0.3s;
 }
 
 /* Header End */
@@ -169,7 +168,6 @@ line-height: 22px;
 
 .personal__profile-img:hover .social--center{
     opacity: 1;
-    transition: all 0.3s;
 }
 
 .personal__profile-name{
@@ -218,6 +216,7 @@ line-height: 22px;
     align-items: center;
     margin-right: 10px;
     background-color: #fff;
+    transition: all 0.3s;
 }
 
 .social__link:last-child{
@@ -227,7 +226,6 @@ line-height: 22px;
 .social__link:hover{
     background-color: #18B5DC;
     color: #fff;
-    transition: all 0.3s;
 }
 
 .social--center{
@@ -235,12 +233,14 @@ line-height: 22px;
     height: 100%;
     opacity: 0;
     background-color: #18B5DC;
+    transition: 0.3s;
 }
 
 .social__link--revers{
     background-color: #5DCBE6;;
     color: #fff;
     margin-right: 4px;
+    transition: all 0.3s;
 }
 
 .social__link--revers:last-child{
@@ -251,7 +251,6 @@ line-height: 22px;
     background-color: #fff;
     color: #18B5DC;
     border: 1px solid #18B5DC;
-    transition: all 0.3s;
 }
 
 /* Footer End */

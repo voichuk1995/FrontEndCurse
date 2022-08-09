@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -18,9 +22,9 @@
             <div class="header__wraper">
                 <div class="header__nav">
                     <p class="header__lang">eng</p>
-                    <a href="#" class="header__link">Documentation</a>
-                    /
-                    <a href="#" class="header__link">Who's using</a>
+                    <a href="#" class="header__link">Documentation </a>
+                    <span class="header__slash">/</span>
+                    <a href="#" class="header__link"> Who's using</a>
                 </div>
                 <div class="header__logo">
                     <img src="img/logo.svg" alt="logo">
@@ -30,13 +34,61 @@
     </header>
     <main class="main">
         <div class="container">
-            <section class="section-1">
+            <section class="section">
                 <div class="text">
-                    <h2 class="text__title">Introduction</h2>
+                    <h2 class="text__title">introduction</h2>
                     <span class="text__subtitle">Chapter 1</span>
                     <p class="text__text">Welcome to the very start of your React Native journey! If you're looking 
-                        for environment setup instructions, they've moved to their own section. Continue reading for an 
-                        introduction to the documentation, Native Components, React, and more!</p>
+                        for environment setup instructions, they've moved to <span style="text-decoration: underline;">their own section</span>. 
+                        Continue reading for an introduction to the documentation, Native Components, React, and more!</p>
+                </div>
+            </section>
+            <section class="section">
+                <div class="text">
+                    <h2 class="text__title">core components</h2>
+                    <span class="text__subtitle">Chapter 2</span>
+                    <p class="text__text">React Native is an open source framework for building Android and iOS 
+                        applications using React and the app platform’s native capabiles. With React Native, 
+                        you use JavaScript to access your platform’s APIs as well as to describe the appearance 
+                        and behavior of your UI using React components: <i>bundles of reusable, nestable code</i>. 
+                        You can learn more about React in the next section. 
+                        But first, let’s cover how components work in React Native.</p>
+                </div>
+            </section>
+            <section class="section">
+                <div class="text">
+                    <h2 class="text__title">react fundamentals</h2>
+                    <span class="text__subtitle">Chapter 3</span>
+                    <p class="text__text">React Native runs on <span style="text-decoration: underline;">React</span>, a popular open source library for building 
+                        user interfaces with JavaScript. To make the most of React Native, it helps to understand React itself. 
+                        This section can get you started or can serve as a refresher course.</p>
+                    <p class="text__text">We’re going to cover the core concepts behind React:</p>
+                    <p class="text__text"><strong>+ components.</strong> The rest of this introduction to React uses cats in its examples: friendly, 
+                        approachable creatures that need names and a cafe to work in.</p>
+                    <p class="text__text"><strong>+ JSX.</strong> React and React Native use JSX, a syntax that lets you write elements inside 
+                        JavaScript like so:  <span style="background-color: rgb(220, 220, 220) ;">&#8249Text&#8250 Hello, 
+                        I am your cat!&#8249/Text&#8250</span>.</p>
+                    <p class="text__text">The React docs have <span style="text-decoration: underline;">a comprehensive guide to JSX</span> you can refer to learn even more. 
+                        Because JSX is JavaScript, you can use variables inside it. Here you are declaring 
+                        a <span style="background-color: rgb(220, 220, 220);">name</span> for the cat, name, and embedding it with curly braces inside <span style="background-color: rgb(220, 220, 220);">&#8249Text&#8250</span></p>
+                    <p class="text__text"><strong>+ props.</strong> Props is short for “properties”. </p>
+                    <p class="text__text"><strong>+ state.</strong> While you can think of props as arguments you use to configure 
+                        how components render, state is like a component’s personal data storage. 
+                        State is useful for handling data that changes over time or that comes 
+                        from user interaction. State gives your components memory!</p>
+                </div>
+            </section>
+            <section class="section">
+                <div class="text">
+                    <h2 class="text__title">handling text input</h2>
+                    <span class="text__subtitle">Chapter 4</span>
+                    <p class="text__text">TextInput is a Core Component that allows the user to enter text. 
+                        It has an <i>onChangeText</i> prop that takes a function to be called every time the text 
+                        changed, and an onSubmitEditing prop that takes a function 
+                        to be called when the text is submitted.</p>
+                    <p class="text__text">For example, let's say that as the user types, you're translating their 
+                        words into a different language. In this new language, every single word is written the 
+                        same way: 🍕. So the sentence "Hello there Bob" would be translated as "🍕 🍕".</p>
                 </div>
             </section>
         </div>

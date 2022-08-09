@@ -1,0 +1,15 @@
+/* *** Zero *** */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+/* *** Zero *** */
+
+.container{
+    width: 1200px;
+}
+
